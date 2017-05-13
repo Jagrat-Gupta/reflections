@@ -1,13 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
+ it creates .git directory and git init is the command
 
 How is the staging area different from the working directory and the repository?
+ it is intermediate sage between srpo and working directory 
+
+   staging area provide a platform before commit to saperat out the file u want to commit from the other existing files and group the file want to commit in a single commit
+
+
 What value do you think it offers?
+ gives a chance to not to do wrong commit check before commi
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+   first il add changed file to staging area and then commit each file one by one for each logical change.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+    when one dosent want to change the original code but still want to do some modification. branches help to modify codes according to my need and keep the main code uneffected. 
 
 How do the diagrams help you visualize the branch structure?
 
